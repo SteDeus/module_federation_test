@@ -4,7 +4,7 @@ import { MfefeatureComponent } from './mfefeature.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'modulo',
     component: MfefeatureComponent
   }
 ];

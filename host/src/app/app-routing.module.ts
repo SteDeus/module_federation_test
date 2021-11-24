@@ -18,7 +18,7 @@ const routes: Routes = [
   {
     path: 'mfe1',
     loadChildren: () => loadRemoteModule({
-      remoteEntry: 'http://localhost:5000/remoteEntry.js',
+      remoteEntry: 'http://localhost:5000/mfe1remoteEntry.js',
       remoteName: 'mfe1',
       exposedModule: './MfefeatureModule'
     })
